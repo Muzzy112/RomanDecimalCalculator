@@ -28,7 +28,7 @@ public class Validator {
 
     // проверка римского результата, положительный он или нет
     protected static boolean isRomanResultPositive (int romanResult) {
-        return romanResult > 1;
+        return romanResult > 0;
     }
 
     // проверка корректности римского операнда
